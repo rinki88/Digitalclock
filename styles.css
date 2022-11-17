@@ -9,6 +9,7 @@ body {
   height: 100vh;
   justify-content: center;
   text-transform: uppercase;
+background-size: cover;
 }
 
 h2 {
