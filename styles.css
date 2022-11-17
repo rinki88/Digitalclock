@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(images/landscape.jpg);
+  background-image: url(landscape.jpg);
   font-family: serif;
   color: white;
   display: flex;
