@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-image: url(images/landscape.jpg);
+  font-family: serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+
+
+ 
+.clock{
+  display: flex;
+}
+
+.clock div{
+  margin: 5px;
+  position: relative;
+}
+
+ .clock span {
+  width: 100px;
+  height: 80px;
+  font-size: 60px;
+  background-color: slateblue;
+  opacity: .8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ 
+.clock .text {
+  height:30px;
+  font-size: 10px;
+  background-color: darkblue;
+  opacity: .8;
+  letter-spacing: 2px;
+}
+
+.clock #ampm{
+   background-color: green;
+   width: 50px;
+   height: 30px;
+   font-size: 10px;
+   position: absolute;
+   bottom: 0;
+ }
